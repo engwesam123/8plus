@@ -1,0 +1,195 @@
+ html[dir='rtl'] body {
+     font-family: 'Noto Kufi Arabic', sans-serif;
+ }
+
+ html[dir='ltr'] body {
+     font-family: "Poppins", sans-serif;
+ }
+
+ body {
+     background-color: #f0f0f0;
+     font-size: 14px;
+ }
+
+ .kt-aside__brand .kt-aside__brand-tools .kt-aside__brand-aside-toggler i {
+     height: 26px;
+     width: 26px;
+     margin-left: -2px;
+     font-size: 16px;
+     color: #ffffff;
+ }
+
+ .kt-aside-menu .kt-menu__nav>.kt-menu__item.kt-menu__item--active>.kt-menu__link .kt-menu__link-icon i {
+     color: #ffffff;
+ }
+
+ .kt-aside-menu .kt-menu__nav>.kt-menu__item>.kt-menu__link .kt-menu__link-icon i {
+     margin-right: -2px;
+     text-align: center;
+     line-height: 20px;
+     color: #a2a3b7;
+     font-size: 18px;
+ }
+
+ i.kt-menu__ver-arrow {
+     font-size: 15px !important;
+ }
+
+ .kt-aside-close {
+     border-radius: 0;
+ }
+
+ .kt-subheader {
+     height: 80px !important;
+ }
+
+
+ .kt-nav-top a {
+     font-size: 12px;
+     text-transform: uppercase;
+     padding: 12px 18px;
+     border-radius: 100px;
+     background-color: rgba(77, 89, 149, 0.06);
+     display: inline-block;
+ }
+
+ .btn-group-sm>.btn,
+ .btn-sm {
+     border-radius: .1rem;
+ }
+
+ .kt-portlet .kt-portlet__body {
+     padding: 40px 20px;
+ }
+
+ .form-control {
+     border-radius: 0.1rem;
+     padding: .4rem 1rem;
+ }
+
+ .kt-form__actions button {
+     padding: 12px;
+     border-radius: 0.15rem;
+ }
+
+ .form-control.is-valid,
+ .was-validated .form-control:valid {
+     background-size: 1rem;
+ }
+
+ .dataTables_wrapper .row:first-of-type {
+     margin-bottom: 20px;
+ }
+
+ .dataTables_wrapper .row:last-of-type>div:first-of-type {
+     order: 2;
+ }
+
+ .dataTables_wrapper .row:last-of-type>div:last-of-type {
+     order: 1;
+ }
+
+ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+     justify-content: flex-start;
+ }
+
+ .dataTables_wrapper .dataTables_paginate .pagination .page-item>.page-link {
+     border-radius: .1rem;
+ }
+
+ .btn-index-add {
+     border-radius: 100px;
+     padding-left: 15px;
+     padding-right: 15px;
+     font-size: 12px;
+ }
+
+ .btn-index-add i {
+     font-size: 14px;
+ }
+
+ .kt-portlet__head-title {
+     position: relative;
+ }
+
+ .kt-portlet__head-title:after {
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 4px;
+     background-color: #e04622;
+     left: 0;
+     bottom: -28px;
+ }
+
+ .kt-portlet .kt-portlet__head {
+     min-height: 70px;
+ }
+
+ button.kt-menu__link-text {
+     border: 0;
+     background-color: transparent;
+ }
+
+ @media (max-width: 1024px) {
+     .kt-header-mobile--fixed .kt-header-mobile {
+         height: 80px;
+     }
+
+     .kt-header-mobile--fixed .kt-wrapper {
+         padding-top: 80px;
+     }
+ }
+
+ @media (min-width: 1025px) {
+     .kt-header--fixed.kt-subheader--fixed.kt-subheader--enabled .kt-wrapper {
+         padding-top: 70px;
+     }
+
+     .kt-header--fixed.kt-subheader--fixed .kt-subheader {
+         top: 0;
+     }
+ }
+
+
+
+ .tooltip-inner {
+     background-color: #fff;
+     color: #6c7293;
+     font-size: 12px;
+     font-family: DroidKufi, sans-serif !important;
+
+ }
+
+ .kt-portlet .kt-portlet__head {
+     display: flex;
+     align-items: center;
+ }
+
+
+ .datatable td:last-of-type{
+    white-space: nowrap;
+ }
+
+
+ .error-page{
+     color: #333;
+ }
+
+ .error-page h1{
+      font-size: 100px;
+      color: #38296d;
+
+ }
+ .error-page p{
+    font-size: 30px;
+    text-transform: uppercase;
+ }
+
+ .error-page button{
+    color: #fff;
+    background-color: #38296d;
+    border-color: #38296d;
+    padding: 10px 40px;
+    margin-top: 10px;
+}

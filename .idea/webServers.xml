@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="45a1eb7f-c897-4a66-abd9-114f4ea6a0bb" name="test" url="http://8plusit.com">
+        <fileTransfer rootFolder="/domains/8plusit.com/public_html" host="8plusit.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
